@@ -1,0 +1,620 @@
+.Car-Welcome-Img img {
+    width: 100%;
+    border-radius: 6px;
+}
+
+.Car-Welcome-Section h5 {
+    font-size: 12px;
+    color: var(--color-lightgreen);
+    font-family: var(--font-family--Montserrat);
+}
+
+.Car-Welcome-Section {
+    background-color: #ebebeb;
+}
+
+.Car-Welcome-Section h2 {
+    font-size: 36px;
+    font-weight: 700;
+    font-family: var(--font-family--Montserrat);
+}
+
+.CarPage-Heading h2 {
+    font-size: 36px;
+    font-weight: 700;
+}
+.CarPage-Heading h5 {
+    font-size: 12px;
+    color: var(--color-lightgreen);
+}
+
+.CarPage-Span {
+    color: var(--color-lightgreen);
+}
+
+.CarPage-cardImage img {
+    width: 100%;
+    height: 16rem;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.CarPage-cardImage {
+    background: rgb(243 235 245);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px); 
+    -webkit-backdrop-filter: blur(5px);
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    min-height: 510px;
+}
+
+.Cardpage-Background {
+    padding: 15px !important;
+    transition: 0.4s ease-in-out;
+}
+
+.CarPage-cardImage:hover {
+    background-color: var(--color-lightgreen); 
+    transition: 0.4s ease-in-out;
+    color: white;
+}
+
+.CarPage-cardImage:hover .btn{
+background: white !important;
+color: black !important;
+transition: 0.4s ease-in-out;
+font-size: 17px;
+}
+.CarPage-cardImage:hover .Cardpage-Background {
+color: rgb(255, 255, 255) !important;
+transition: 0.4s ease-in-out;
+}
+
+.CarPage-cardImage:hover .carPage-Spantext {
+color: var(--color-yellow) !important;
+transition: 0.4s ease-in-out;
+}
+
+.Cardpage-Background h3 {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.CardPage-Section {
+    background-image: linear-gradient(360deg, #004443, transparent),url(./CarPageImage//welcomeimage.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height:90vh !important;
+    /* filter: brightness(0.8); */
+    background-attachment: fixed;
+    position: relative;
+}
+
+
+.CardPage-Section {
+    min-height:60vh;
+}
+
+.CardPage-Section h2 {
+        font-size: 36px;
+        font-weight: 700;
+        color: white;
+        font-family: var(--font-family--Montserrat);
+}
+.Card-Page-Heading {
+        font-size: 12px;
+        color: white;
+        font-family: var(--font-family--Montserrat);
+}
+
+.CardPage-Section p {
+        color: rgb(255, 255, 255);
+        font-family: var(--font-family--Montserrat);
+}
+
+.CarPage-MainDiv ul {
+    padding-left: 0 !important;
+}
+
+.CarPage-MainDiv h5 {
+    color: black;
+    font-family: var(--font-family--Montserrat);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+.carPage-Spantext {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: var(--font-family--Montserrat);
+    color: var(--color-lightgreen);
+    letter-spacing: 2px;
+}
+
+.CarPage-MainDiv ul li {
+   list-style: none;
+    font-size: 16px;
+    font-family: var(--font-family--Montserrat);
+}
+
+.CarPage-Offer-section {
+    background-color: rgb(235 235 235);
+}
+
+.Articles {
+    background-color: rgb(235 235 235);
+}
+
+
+.CardPage-Button {
+    display: flex;
+    justify-content: center;
+}
+.CardPage-Button .btn {
+    display: flex;
+    height: 40px;
+    width: 80%;
+    justify-content: center;
+    background-color: var(--color-lightgreen);
+    border-radius: 6px;
+    color: white;
+}
+
+.CallPage-Section {
+    min-height: 50vh;
+}
+
+.CallPage-Heading h2 {
+    color: white;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: var(--font-family--Montserrat);
+}
+
+.CallSpan-Text {
+    font-size: 36px;
+    font-weight: 700;
+    font-family: var(--font-family--Montserrat);
+}
+
+.CallPage-Heading p{
+    color: white;
+    font-family: var(--font-family--Montserrat);
+}
+.CallPage-Heading a{
+        font-weight: 600;
+        font-size: 20px;
+        color: #e4950a;
+        text-decoration: none;
+        margin: 6px;
+}
+
+.Call-Icon {
+    color: white;
+    font-size: 30px !important;
+}
+
+.CallPage-Image img {
+    width: 89%;
+}
+
+.Articles-Card img {
+    width: 100%;
+}
+
+.Articles h1 {
+    font-size:36px;
+    font-weight: 700;
+    font-family: var(--font-family--Montserrat);
+}
+
+.Articles-Middle-Content img {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.Articles-Middle-Content span {
+    font-size:14px;
+}
+
+.Articles-Content {
+    padding:0 12px;
+}
+
+.Articles-Middle-Content {
+    padding:12px;
+}
+
+.Articles-Content p {
+    font-size: 14px;
+}
+
+.Articles-Content h2 {
+    font-size: 22px;
+    font-weight: 600;
+    font-family: var(--font-family--Montserrat);
+}
+
+.Articles-Card {
+    transition: 0.7s ease-in-out !important;
+}
+
+.Articles-Card:hover {
+    background-color: var(--color-lightgreen); 
+    color: white;
+}
+
+.Vehicles-Listing .owl-nav button {
+        font-size: 8rem !important;
+        color: white !important;
+}
+
+.Vehicles-Listing .owl-nav {
+    margin-top: -115px;
+}
+
+.owl-nav button {
+    margin: 0px !important;
+}
+
+.car-bg {
+    background-image: linear-gradient(180deg,  #0f6160d4, transparent),url(../CarPage//CarPageImage//CarBgImage2.jpg);
+    background-position:center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+/* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1440px) { 
+    .CardPage-Section {
+        min-height: 95vh !important;
+    }
+ }
+
+/* // `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+    .CardPage-Section {
+        min-height: 88vh !important;
+    }
+    .ScrollCounter {
+        padding-top: 0rem !important;
+      }
+      .title h1 {
+       margin-top: 1rem !important;
+      }
+      .CarPage-cardImage img {
+        width: 100%;
+        height: 12rem;
+    }
+    .CarPage-MainDiv ul li {
+        font-size: 14px;
+    }
+    .CardPage-Button .btn {
+        display: flex;
+        height: 35px;
+        width: 70%;
+        justify-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .Cardpage-Background h3 {
+        font-size: 18px;
+    }
+    .CarPage-MainDiv h5 {
+        font-size: 14px;
+    }
+    .Cardpage-Background {
+        padding: 10px 6px !important;
+    }
+    .CarPage-cardImage {
+        min-height: 460px;
+    }
+    .Article-Ptag {
+        font-size: 15px ;
+    }
+    .CallPage-Section {
+        min-height: 38vh;
+    }
+    .CallPage-Heading h2 {
+        font-size: 30px;
+    }
+    .Articles h1 {
+        font-size: 30px;
+    }
+    .CallSpan-Text {
+        font-size: 30px;
+    }
+    .CardPage-Section h2 {
+        font-size: 30px;
+    }
+    .CarPage-Heading h2 {
+        font-size: 30px;
+    }
+    .Car-Welcome-Section h2 {
+        font-size: 30px;
+    }
+    .Articles-Content {
+        margin-top: 0px !important;
+        padding: 0 10px;
+    }
+    .Articles-Middle-Content {
+        padding: 6px;
+    }
+    .Articles-Content h2 {
+        font-size: 17px;
+    }
+ }
+
+
+/* // `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+    .car-bg {
+        min-height: 80vh;
+    }
+    .Car-Welcome-Section h2 {
+        font-size: 24px;
+    }
+    .CallSpan-Text {
+        font-size: 28px;
+    }
+    .CallSpan-Text p {
+        font-size: 14px;
+    }
+    .Car-Welcome-Section h5 {
+        font-size: 13px;
+    }
+    .CarPage-Heading h5 {
+        font-size: 13px;
+        padding-top: 3rem !important;
+    }
+    .CarPage-Heading h2 {
+        font-size: 24px;
+    }
+    .CarPage-Span {
+        font-size: 28px;
+    }
+    .Hotel-Social-Icons {
+        font-size: 32px !important;
+    }
+    .Offer-Section h4 {
+        font-size: 20px;
+    }
+    .Hotel-Heading-Ptag {
+        font-size: 12px !important;
+        /* width: 19rem; */
+        margin-left: 0rem;
+    }
+    .CardPage-Section {
+        min-height: 82vh !important;
+    }
+    .Cardpage-Background h3 {
+        font-size: 16px;
+    }
+    .Cardpage-Background {
+        padding: 10px !important;
+    }
+    .carPage-Spantext {
+        font-size: 18px;
+        padding-top: 0 !important;
+        padding-bottom: 5px;
+    }
+    .CarPage-MainDiv h5 {
+        font-size: 14px;
+    }
+    .CarPage-MainDiv ul li {
+        font-size: 12px;
+    }
+    .CardPage-Button .btn {
+        height: 32px;
+        width: 60%;
+        align-items: center;
+    }
+    .CarPage-cardImage img {
+        height: 12rem;
+    }
+    .CarPage-cardImage {
+        min-height: 420px;
+    }
+    .CarPage-MainDiv  {
+        padding-top: 0 !important;
+    }
+    .CardPage-Section h2 {
+        font-size: 26px;
+    }
+    .Articles h1 {
+        font-size: 24px;
+    }
+    .Articles p {
+        font-size: 14px !important;
+        line-height: 1.2;
+    }
+    .Articles-Middle-Content img {
+        width: 42px;
+        padding-left: 3px;
+    }
+    .Articles-Middle-Content {
+        padding: 0px;
+    }
+    .Articles-Middle-Content span {
+        font-size: 10.7px;
+        padding-left: 1px !important;
+    }
+    .Articles-Content h2 {
+        font-size: 12px;
+        font-weight: 600;
+        margin-bottom: 5px;
+        padding-top: 10px;
+    }
+    .Articles-Content-PTag {
+        font-size: 14px !important;
+        font-weight: 300;
+    }
+    .Articles-Card {
+        margin-top: 5px !important;
+    }
+    .Articles {
+        padding-bottom: 1.5rem !important;
+    }
+    .CallPage-Heading h2 {
+        font-size: 24px;
+    }
+    .CallPage-Heading p {
+        font-size: 14px;
+    }
+    .Call-Icon {
+        font-size: 26px !important;
+    }
+    .CallPage-Heading a {
+        font-size: 20px;
+        margin: 4px;
+    }
+    .CallPage-Section {
+        min-height: 31vh !important;
+    }
+    .CallPage-Image img {
+        width: 100%;
+    }
+    .CallPage-Heading {
+        padding-top: 2rem !important;
+    }
+    
+ }
+
+/* // `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {  }
+
+/* // `sm` applies to x-small devices (portrait phones, less than 576px) */
+  @media (max-width: 575.98px) {
+    .Car-Welcome-Section h2 {
+        font-size: 18px;
+    }
+    .CallSpan-Text {
+        font-size: 20px;
+    }
+    .Car-Welcome-Section p {
+        font-size: 12px;
+    }
+    .Car-Welcome-Img {
+        margin-top: 0 !important;
+    }
+    .CarPage-Heading h2 {
+        font-size: 18px;
+    }
+    .CarPage-Heading h5 {
+        padding-top: 3rem !important;
+        font-size: 12px;
+    }
+    .CardPage-Section h2 {
+        font-size: 18px;
+    }
+    .CarPage-cardImage img {
+        width: 100%;
+        height: 12rem;
+    }
+    .Cardpage-Background h3 {
+        font-size: 16px;
+    }
+    .carPage-Spantext {
+        font-size: 16px;
+    }
+    .CarPage-MainDiv h5 {
+        font-size: 14px;
+    }
+    .CarPage-MainDiv ul li {
+        font-size: 12px;
+    }
+    .CardPage-Button .btn {
+        display: flex;
+        height: 35px;
+        width: 50%;
+        justify-content: center;
+        align-items: center;
+    }
+    .CarPage-MainDiv {
+        justify-content: center;
+    }
+    .CarPage-cardImage {
+        min-height: 440px;
+    }
+    .CardPage-Section {
+        background-position: top;
+        min-height: 80vh !important;
+    }
+    .Articles h1 {
+        margin-top: 2rem !important;
+        font-size: 18px;
+    } 
+    .Articles p {
+        font-size: 12px;
+    }
+    .Articles-Card {
+        margin-top: 1rem !important;
+    }
+    .Articles-Middle-Content {
+        padding: 7px;
+    }
+    .Articles-Content h2 {
+        font-size: 14px;
+    }
+    .Articles-Middle-Content span {
+        font-size: 12px;
+    }
+    .Articles-Middle-Content img {
+        width: 40px;
+    }
+    .Articles-Content {
+        margin-top: 0.5rem !important;
+        padding: 0 12px;
+    }
+    .CallPage-Section {
+        min-height: 46vh !important;
+    }
+    .CallPage-Heading h2 {
+        font-size: 18px;
+        line-height: 15px;
+    }
+    .CallPage-Heading p {
+        font-size: 12px;
+        color: white;
+        margin-bottom: 0;
+    }
+    .Call-Icon {
+        margin-left: 50px;
+        color: white;
+        font-size: 22px !important;
+    }
+    .CallPage-Image img {
+        margin-top: 1rem;
+        width: 100%;
+    }
+    .Vehicles-Listing .owl-nav button {
+        font-size: 6rem !important;
+        color: white !important;
+        margin: 0 5px !important;
+    }
+     .Vehicles-Listing .owl-nav button:hover {
+        color: var(--color-yellow) !important;
+    }
+    .Vehicles-Listing .owl-nav {
+       margin-top: -5.5rem;
+    }
+    .car-bg {
+        min-height: 80vh;
+    }
+    .Articles-Content h2 {
+        margin-bottom: 5px;
+        padding-top: 0px;
+    }
+
+  }
+
+

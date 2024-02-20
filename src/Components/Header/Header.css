@@ -1,0 +1,277 @@
+.Header {
+   
+    background-image: linear-gradient(var(--color-linear-gradient)),url(../Assets/backgroundimg1.jpg);
+    background-position:center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+.main-active-header .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+  background: transparent !important;
+    border-bottom: 1px solid yellow;
+    border-radius: 0;
+    color: yellow !important;
+}
+.navbar {
+    margin: 0px 25px;
+}
+.container-fluid {
+  padding: 15px 0;
+}
+.Tabs-Button {
+  margin: 0px 10px;
+}
+/* .Tabs-Button .buttons {
+  padding: 10px 0;
+} */
+.Logo > img{
+    width: 100px;
+    cursor: pointer;
+}
+.collapse .btn{
+    color: var(--color-white);
+    margin: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: var(--color-yellow);
+    outline: none;
+    border: none;
+    padding: 8px 10px;
+}
+.collapse .btn:hover {
+  color: var(--color-white);
+  background-color: var(--color-lightgreen);
+}
+
+.Tabs ul a{
+    text-decoration: none !important;
+    color: white;
+}
+.Tabs-List li {
+    list-style: none;
+    margin: 0px 15px;
+}
+.margin-left {
+    margin-left: 0 !important;
+}
+
+
+  .buttons {
+    display: flex;
+    /* justify-content: space-between !important; */
+    top: 10px;
+    left: 20px;
+ }
+  .buttons button {
+    width: 135px;
+    height: 40px;
+    background-color: transparent;
+    margin: 0px 0px 10px 10px;
+    color: #ffffff;
+    position: relative;
+    overflow: hidden;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    /* text-transform: uppercase; */
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border: 0;
+ }
+
+ .buttons button:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background-color: #c4990b;
+  transition: all 0.3s ease;
+  left: 0;
+  bottom: 0px;
+}
+
+  .buttons button p {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+ }
+
+  .buttons button:hover {
+    color: #fcb527;
+    letter-spacing: 2px;
+ }
+  .buttons button:hover:before, .buttons button:hover:after {
+    width: 100%;
+ }
+  .buttons button:hover p {
+    z-index: 1;
+ }
+  .buttons button:hover p:before, .buttons button:hover p:after {
+    height: 100%;
+ }
+  .buttons button:hover span {
+    height: 100%;
+    top: 0;
+ }
+  .buttons button:active {
+    outline: none;
+    border: none;
+ }
+  .buttons button:focus {
+    outline: 0;
+ }
+
+ .header-button .btn {
+  color: var(--color-white);
+  background-color: var(--color-yellow);
+  border: none;
+  margin: 0 5px;
+  transition: 0.5s ease-in-out;
+ } 
+ .header-button .btn:hover {
+  background-color: var(--color-lightgreen);
+  transition: 0.5s ease-in-out;
+ }
+
+ .Tabs-Button {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
+}
+  
+
+ 
+
+/* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {  }
+
+/* // `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+  .Form-Header-Button{
+    width: 100% !important;
+    text-align: center !important;
+     padding-top: 2rem;
+  }
+  .Logo > img {
+    margin-top: -70px;
+}
+.buttons button {
+  width: 125px;
+  height: 40px;
+  background-color: transparent;
+  margin: 10px 5px 15px 5px;
+  color: #ffffff;
+  position: relative;
+  overflow: hidden;
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  /* text-transform: uppercase; */
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border: 0;
+}
+ }
+
+
+/* // `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+  .buttons  {
+    padding-left: 5px !important;
+}
+.buttons button {
+  width: 105px;
+  height: 40px;
+  margin: 30px 0px 20px 0px;
+}
+.buttons button p {
+  width: auto;
+}
+.Logo > img {
+    margin-top: 0px;
+}
+ }
+
+/* // `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {  }
+
+/* // `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+  .Logo > img {
+    width: 100px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+.navbar-toggler {
+  background-color: var(--color-white);
+}
+.navbar-toggler-icon {
+  font-size: 12px;
+}
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+  .buttons {
+    display: block;
+    margin-top: 20px;
+    padding: 0 !important;
+}
+.buttons button {
+  width: 143px;
+  height: 35px;
+  margin: 0;
+}
+.buttons button p {
+  justify-content: initial;
+}
+form {
+  margin-left: -6px;
+  display: flex;
+  margin-top: 30px;
+}
+.collapse .btn {
+  /* margin: 6px; */
+  height: 36px;
+  font-size: 11px;
+  padding: 0px 19px;
+  text-align: center;
+  align-items: center;
+  width: 125px;
+}
+
+.header-button .btn {
+  color: var(--color-white);
+  background-color: var(--color-yellow);
+  border: none;
+  margin: 0 5px !important;
+}
+.buttons button {
+  width: 127px;
+  height: 35px;
+  margin: 0;
+}
+
+form > .btn{
+  font-weight: 500;
+  font-size: 12px;
+  display: flex;
+  margin: 0px 0px 0px 10px;
+  padding: 10px 15px;
+  color: white;
+  border: 1px solid var(--color-yellow);
+}
+form > .btn:hover{
+  background-color: var(--color-yellow) !important;
+  border: none !important;
+}
+
+}

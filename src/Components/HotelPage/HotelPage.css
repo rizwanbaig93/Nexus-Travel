@@ -1,0 +1,697 @@
+
+.hotel-bg {
+    background-image:linear-gradient(180deg,  #0f6160d4, transparent),url(../HotelPage//hotel\ images/HotelImage2.jpg);
+    background-position:center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+.Hotel-Heading h1 {
+    font-size: 24;
+    font-weight: 700;
+}
+
+.Welcome-Section {
+    background-color: #ebebeb;
+}
+
+.Offer-Section {
+    background-color: #ebebeb;
+}
+
+.Client-Review-Page {
+    padding-bottom: 3rem !important;
+    background-color: #ebebeb;
+}
+
+.Offer-Section  p {
+    font-size: 14px;
+}
+.Offer-Section  h4 {
+    text-transform: uppercase !important;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.Hotel-Social-Icons {
+    font-size: 35px !important;
+    color: var(--color-yellow);
+}
+
+.Welcome-Section-img img {
+    width: 100%;
+    border-radius: 6px;
+    height: 26rem;
+    filter: brightness(0.6);
+}
+
+.Welcome-Section h5 {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--color-lightgreen);
+    font-weight: 400;
+}
+.Welcome-Section h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+.Welcome-Section p  {
+    font-family: var(--font-family--Montserrat);
+    font-weight: 400;
+}
+.Jumbotron {
+    background-image: linear-gradient(180deg,  #0f6160d4, transparent),url(./hotel\ images/image1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 55vh;
+    /* filter: brightness(0.8); */
+    background-attachment: fixed;
+    position: relative;
+}
+.overlay{
+    background-color: rgb(#ffbc369f / 61%);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-position: center center;
+    background-repeat: repeat; 
+}
+
+.Jumbotron-Content {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    padding: 50px;
+    background: #ffbe3cad;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px); 
+    -webkit-backdrop-filter: blur(5px);
+    color: white;
+    border-radius: 6px;
+}
+.Jumbotron-Heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 53vh;
+}
+
+.Jumbotron-Content .btn {
+    width: 25%;
+    padding: 7px;
+    background: white;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    transition: 0.5s ease-in-out;
+}
+.Jumbotron-Content .btn:hover {
+    background: #0f6160;
+    color: #ffffff;
+}
+
+.Client-Card img {
+    width: 100px !important;
+    border-radius: 50%;
+}
+
+
+.items {
+    background-color: rgba(0, 141, 136, 0.878);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px); 
+    -webkit-backdrop-filter: blur(5px);
+    height: 360px;
+    width: 100%;
+    padding: 0px 6px 0px; 
+    text-align: center;
+    border-radius: 6px;
+    transition: 0.4s ease-in-out !important;
+}
+
+.items:hover {
+    transition: 0.4s ease-in-out !important;
+    
+    background-color: rgba(1, 167, 162, 0.783);
+}
+
+.Opicity {
+    opacity: 0;
+    transition: 0.4s ease-in-out;
+}
+
+.items:hover .Opicity {
+    opacity: 1;
+    transition: 0.4s ease-in-out;
+}
+
+.Client-card-text {
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    width: 100%;
+    color: #ffffff;
+    padding: 0px 18px;
+   
+}
+
+.Client-Card:hover {
+  opacity: 1;
+}
+
+.Client-name {
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: rgb(60 54 54);
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    padding-top: 0 !important;
+}
+
+.Client-span-text {
+    color: #000000;
+    font-weight: 300;
+    font-size: 15px;
+    display: block;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.client-image {
+    display: flex !important;
+    justify-content:center;
+    position: relative;
+    display: inline-block;
+    float: none;
+    margin: 0;
+}
+.client-image img{
+    height: auto;
+    max-width: 100%;
+    border-radius: 50% !important;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.Client-Social-Icon-Star {
+    color: #eba74e;
+    font-size: 16px !important;
+}
+
+.Items-Owl  button.owl-prev {
+    font-size: 50px !important;
+}
+
+.Items-Owl  button.owl-next {
+    font-size: 50px !important;
+}
+
+.Carousel-Heading h1 {
+    font-size: 36px;
+    font-family: var(--font-family--Montserrat);
+    font-weight: 700;
+}
+
+.owl-theme .owl-nav [class*='owl-']:hover {
+    background: none;
+    color: rgb(125 35 153 / 78%);
+}
+
+.Items-Owl .owl-dots {
+    display: none !important;
+}
+.owl-theme .owl-nav {
+    margin-top: 0px;
+    text-align: center;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.client-Card-icon {
+    display: flex;
+    justify-content: center;
+    transition: 0.4s ease-in-out;
+    opacity: 0;
+}
+
+.client-Card-icon a {
+   color: white;
+}
+
+.Client-Card .client-Card-icon{
+    opacity: 1;
+}
+.Client-Card .client-Card-icon:hover {
+    opacity: 1;
+}
+
+.client-Card-icon .Opicity {
+    margin: 0 4px;
+}
+
+.News-Offers {
+    background-image: linear-gradient(180deg,  #00504e, transparent),url(./hotel\ images/image2.jpg);   background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 85vh !important;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.Offer-overlay{
+    background-color: rgb(#cd8800de / 61%);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-position: center center;
+    background-repeat: repeat;
+    
+}
+
+
+.News-Offers img {
+    width: 100%;
+    border-radius: 6px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+
+}
+.News-Offers h1 {
+  color: white;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+}
+.NewsOffer-ptag {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.Offer-Card {
+    background: #ffffff;
+    border-radius: 6px;
+    border: 1px solid #0000007d;
+}
+
+.Offer-Content {
+    padding: 20px 30px;
+    min-height: 260px;
+}
+
+.Offer-Content h2 {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.Offer-Content p {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.Offer-Span {
+    display: flex;
+    justify-content: center;
+    color: var(--color-yellow);
+}
+
+.Bg-Change {
+    background-color: none !important;
+}
+
+/* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {  }
+
+/* // `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+    .News-Offers {
+        min-height: 75vh !important;
+    }
+    .owl-theme .owl-nav {
+        padding-bottom: 30px;
+        text-align: center;
+        -webkit-tap-highlight-color: transparent;
+    }
+    .Client-Review-Page {
+        padding-bottom: 1rem !important;
+        background-color: #ebebeb;
+    }
+    .News-Offers h1 {
+        font-size: 30px;
+        font-weight: 700;
+    }.Hotel-Heading h1 {
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .Newsoffer-Card {
+        margin-top: 0 !important;
+    }
+    .Offer-Card {
+        margin-top: 0rem !important;
+    }
+    .Offer-Content {
+        padding: 10px 15px;
+        min-height: 220px;
+    }
+    .Carousel-Heading h1 {
+        font-size: 30px;
+    }
+    .Offer-Content h2 {
+        font-size: 15px;
+    }
+    .Offer-Content p {
+        font-size: 13px;
+        padding-top: 7px !important;
+    }
+    .Client-card-text {
+        font-size: 13px;
+        padding: 0px 10px;
+    }
+    .card-body {
+        padding-top: 10px !important;
+    }
+    .Jumbotron-Content {
+        width: 67%;
+        padding: 40px;
+    }
+    .Welcome-Section h5 {
+        padding: 0 !important;
+    }
+    .Welcome-Section-img img {
+        height: 20rem;
+    }
+    .items {
+        height: 335px;
+    }
+ }
+
+
+/* // `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+    .Jumbotron {
+        min-height: 60vh;
+    }
+    .Welcome-Section-img img {
+        height: 23rem;
+    }
+    .Jumbotron-Content {
+        width: 85%;
+        padding: 30px;
+    }
+    .Jumbotron-Heading {
+        min-height: 45vh;
+    }
+    .Welcome-Section-Heading {
+        padding-left: 15px !important;
+    } 
+    .Welcome-Section-Heading h5 {
+        padding-top: 2rem !important;
+        margin-top: 0 !important;
+    }
+    .Hotel-Heading h1 {
+        font-size: 26px ;
+    }
+    .Hotel-Content {
+        padding-top: 1rem !important;
+    }
+    .Jumbotron-Content h2 {
+        font-size: 24px !important;
+    } 
+    .Jumbotron-Content p {
+        font-size: 14px !important;
+    }
+    .Jumbotron-Content .btn {
+        width: 26%;
+        padding: 5px;
+        font-size: 16px;
+    }
+    .Offer-Section h4 {
+        padding-top: 7px !important;
+    }
+    .News-Offers h1 {
+        font-size: 24px;
+        margin-top: 3rem !important;
+    }
+    .Client-Review-Page {
+        padding-bottom: 0rem !important;
+    }
+    .NewsOffer-ptag {
+        font-size: 14px;
+    }
+    .Jumbotron {
+        min-height: 100vh;
+    }
+    .SaveCash-Jumbotron {
+        min-height: 60vh !important;
+    }
+    .Offer-Content {
+        padding: 10px 10px ;
+        min-height: 227px ;
+    }
+    .Offer-Content h2 {
+        font-size: 13px ;
+        padding-top: 0.4rem !important;
+        padding: 0 10px;
+    }
+    .Offer-Content p {
+        font-size: 11px;
+        font-weight: 400;
+    }
+    .News-Offers-Carousel {
+        margin-top: 0 !important;
+    }
+    .Offer-Span {
+        font-size: 14px !important;
+    }
+    .Offer-Card {
+        margin-top: 0 !important;
+    }
+    .Client-Card img {
+        width: 85px !important;
+    }
+    .Client-card-text {
+        font-size: 11px;
+        width: auto;
+        padding: 0px 0px;
+    }
+    .Client-Review-Page {
+        padding-bottom: 2rem;
+    }
+    .Client-name {
+        padding-top: 0 !important;
+        font-size: 16px;
+        letter-spacing: 0px;
+        font-weight: 600;
+    }
+    .Client-Social-Icon-Star svg {
+        width: 22px !important;
+    }
+    .Carousel-Heading-mb h1 {
+        margin-bottom: 0 !important;
+    }
+    .items {
+        height: 325px;
+    }
+    .Client-Review-Card {
+        margin-top: 0 !important;
+    }
+    .Client-Review-Carousel button.owl-prev {
+        font-size: 40px !important;
+    }
+    .Client-Review-Carousel button.owl-next {
+        font-size: 40px !important;
+        margin: 0 5px !important;
+    }
+    .News-Offers {
+        min-height: 65vh !important;
+    }
+    .hotel-bg {
+        min-height: 80vh;
+    }
+    .Hotel-Content {
+        padding-top: 0.7rem !important;
+    }
+ }
+
+/* // `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {  }
+
+/* // `sm` applies to x-small devices (portrait phones, less than 576px) */
+  @media (max-width: 575.98px) { 
+    .Welcome-Section-img img {
+        width: 100%;
+        border-radius: 6px;
+        height: 13rem;
+        filter: brightness(0.6);
+    }
+    .Welcome-Section-Heading h2 {
+        padding: 0 0px !important;
+    }
+     .Welcome-Section-Heading  p {
+        padding: 0 0px !important;
+    } 
+    .Welcome-Section-Heading h5{
+        padding: 0 0px !important;
+        margin-top: 1.5rem !important;
+    }
+    .Welcome-Section span {
+        font-family: var(--font-family--Montserrat);
+        font-size: 12px;
+        padding: 0px 10px !important;
+        display: flex;
+    }
+    .Welcome-Section h2 {
+        font-weight: 700;
+        font-size: 16px;
+    }
+    .Welcome-Section p {
+        font-weight: 400;
+        font-size: 12px;
+    }
+    .Jumbotron-Content {
+        width: 100%;
+        padding: 10px 0;
+    } 
+    .Jumbotron-Content h2{
+       font-size: 16px !important;
+       font-weight: 600;
+    }
+    .SaveCash-Jumbotron {
+        min-height: 45vh !important;
+    }
+    .News-Offers {
+        min-height: 80vh !important;
+    }
+    .Jumbotron-Content p {
+        font-size: 12px !important;
+        padding: 5px;
+        margin-bottom: 8px;
+        line-height: 1.3;
+    }
+    .Jumbotron-Content .btn {
+        width: 40% !important;
+        padding: 4px 0px !important;
+        font-size: 16px !important;
+    }
+    .Jumbotron-Heading {
+        margin: 0 !important;
+    }
+    .Hotel-Heading h1 {
+        font-size: 16px;
+    }
+    .Offer-Section h4 {
+        padding-top: 5px !important;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    /* .Offer-Section p {
+        font-size: 11px;
+    } */
+    .Hotel-Heading {
+        margin-top:2rem;
+    }
+    .Hotel-Content {
+        padding: 7px 0px 0px 0 !important;
+    }
+    .Hotel-Social-Icons {
+        font-size: 26px !important;
+    }
+    .Offer-Content p {
+        padding-top: 10px !important;
+        font-size: 12px !important;
+    }
+    .Offer-Content h2 {
+        font-size: 15px !important;
+        padding: 8px 0 !important;
+        font-weight: 600;
+    }
+    .Offer-Content {
+        padding: 7px 15px;
+        min-height: 240px;
+    }
+    .Newsoffer-Card {
+        margin-top: 0px !important;
+        background: none;
+    }
+    .News-Offers h1 {
+        font-size: 18px;
+    }
+    /* .NewsOffer-ptag {
+        font-size: 12px;
+        margin-left: 0px;
+        margin-bottom: 0;
+    } */
+    .NewsOffer-Caeousel .owl-nav {
+        margin-top: -90px;
+        text-align: center;
+        -webkit-tap-highlight-color: transparent;
+        font-size: 20px !important;
+        color: white !important;
+    }
+    .NewsOffer-Caeousel button.owl-prev {
+        font-size: 100px !important;
+        margin: 0 5px !important;
+    }
+    .NewsOffer-Caeousel button.owl-next {
+        font-size: 100px !important;
+        margin: 0 0px !important;
+    }
+     .NewsOffer-Caeousel .owl-nav .owl-prev:hover {
+        color: var(--color-yellow) !important;
+    }
+    .NewsOffer-Caeousel .owl-nav .owl-next:hover {
+        color: var(--color-yellow) !important;
+    }
+    .Offer-Card {
+        margin-top: 1rem !important;
+    }
+
+    .Client-Card img {
+        margin-top: 0.5rem;
+        width: 70px !important;
+    }
+     .Client-card-text {
+        padding: 0px 0px !important;
+        font-size: 12px !important;
+    }
+    .Client-name {
+        font-size: 14px;
+    }
+    .Client-Review-Carousel {
+        margin-top: 0 !important;
+    }
+    .Client-Review-Carousel .owl-nav  {
+        margin-top: -10px;
+    }
+    .items {
+        margin-top: 0 !important;
+    }
+    .Client-Review-Carousel button.owl-prev {
+        font-size: 30px !important;
+    }
+    .Client-Review-Carousel button.owl-next {
+        font-size: 30px !important;
+    }
+    .Client-Review-Carousel .owl-nav .owl-prev {
+        margin: 0px !important;
+    }
+    .Client-Review-Carousel .owl-nav .owl-next {
+        margin: 5px 2px !important;
+    }
+    .hotel-ScrollCounter {
+        padding-top: 8rem !important;
+    }
+    .News-Offers-Carousel .owl-nav {
+        margin-top: -90px !important;
+        padding-bottom: 2rem;
+    }
+    .hotel-bg {
+        min-height: 80vh;
+    }
+}

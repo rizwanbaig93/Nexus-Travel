@@ -1,0 +1,101 @@
+/* 
+.Footer {
+    background: rgb(125 35 153 / 78%);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px); 
+    -webkit-backdrop-filter: blur(5px);
+    padding: 15px 0;
+    border-radius: 6px;
+}
+
+.Footer-Heading h5 {
+    color: rgb(55, 55, 55);
+}
+
+.Border-Bottom {
+    border-bottom: 1px solid #cfcfcf;
+}
+
+.Footer-Content div > a{
+    text-decoration: none;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+}
+.Footer-Content div > a:hover{
+    color: rgb(164 74 231);
+}
+
+.Footer-Icons .Icon {
+    background-color: rgb(132, 132, 132);
+    border-radius: 50%;
+    color: white;
+    padding: 5px;
+    width: 25px;
+    height: 25px;
+    margin: 0 5px;
+}
+
+.Facebook-Icon {
+    background-color: rgb(132, 132, 132);
+    border-radius: 50%;
+    color: white;
+    padding: 5px;
+    width: 25px;
+    height: 25px;
+}
+
+.Facebook-Icon:hover {
+    background-color: rgb(164 74 231) !important;
+}
+.Footer-Icons .Icon:hover {
+    background-color: rgb(164 74 231) !important;
+}
+
+.Visa-Margin {
+    margin-left: 0px !important;
+}
+
+.Footer-Mathed-image img{
+    width: 50px;
+    border: 1px solid rgb(228 228 228);
+    margin: 0 5px;
+    font-size: 58px;
+    height: 30px;
+}
+
+.Footer-Para {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-break: 50%;
+}
+
+.Footer-Para > p {
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+} */
+
+
+/* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {  }
+
+/* // `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {  }
+
+
+/* // `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {  }
+
+/* // `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {  }
+
+/* // `sm` applies to x-small devices (portrait phones, less than 576px) */
+/* @media (max-width: 575.98px) { 
+    .Footer-Content {
+        margin-top: 13px !important;
+        line-height: 1.5;
+    }
+    .custom-footer {
+        margin: 0 !important;
+    }
+} */

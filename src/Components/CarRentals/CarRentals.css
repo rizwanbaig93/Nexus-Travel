@@ -1,0 +1,477 @@
+.Car-Image{
+    background-image: linear-gradient(var(--color-linear-gradient), transparent),url(../Cards//CardImages//images7.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Heading-Icon {
+    margin: 0 10px;
+}
+
+.Heading-Content {
+    color: #0f294d;
+}
+
+.Icon-Color {
+    color: #496c9e;
+    font-size: 20px !important;
+}
+
+.Card-Tabs {
+    display: flex;
+    justify-content: start;
+}
+
+
+
+.nav-tabs {
+    border-bottom: none;
+}
+
+.Image-Four > img {
+    border-radius: 6px;
+    height: 382px;
+}
+
+.Card-Icons > .Star {
+    font-size: 16px ;
+    color: #ffb400;
+}
+
+.Rating-Point {
+    width: 50px;
+    height: 26px;
+    padding: 0 0 0 5px;
+    color: white !;
+    background-color: #496c9e;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.Rating-Point > p {
+    font-size: 16px;
+    color: white;
+}
+.Rating-Point > p span {
+    font-size: 14px;
+    color: rgb(218, 218, 218);
+}
+
+.Card-Rating {
+    align-items: center;
+}
+
+.Card-Reviews > p {
+    font-size: 14px;
+    color: #0f294d;
+    font-weight: 700;
+    line-height: 15px;
+}
+
+.Card-price {
+    display: flex;
+    justify-content: end;
+}
+
+.Card-price h5 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.ACE-Image > img {
+    width: 50px;
+    /* margin: 0 12px 0 0; */
+}
+
+.Icon-Width {
+    margin: 5px 3px;
+    color: #496c9e;
+    height: 20px;
+    font-size: 20px !important;
+}
+
+.post-module {
+    backdrop-filter: blur(12px) saturate(159%);
+    -webkit-backdrop-filter: blur(12px) saturate(159%);
+    background-color: rgb(184 182 255 / 36%);
+    border-radius: 6px;
+    position: relative;
+    z-index: 1;
+    display: block;
+    min-width: 270px;
+    height: 500px;
+
+  }
+  .post-module:hover,
+  .hover {
+    -webkit-box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.3);
+  }
+  .modal-backdrop{
+    z-index: 0 !important;
+  }
+  .Card-Img > img {
+    width: 100% !important;
+    height: 15rem;
+}
+
+  .post-module:hover .thumbnail img,
+  .hover .thumbnail img {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    transform: scale(1.3);
+    opacity: 0.6;
+  }
+  .post-module .thumbnail {
+    background: #030303;
+    overflow: hidden;
+  }
+  .post-module .thumbnail .date {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1;
+    background: #ab54c6;
+    width: 55px;
+    height: 55px;
+    padding: 10px 0;
+    line-height: 18px;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    color: #FFFFFF;
+    font-weight: 700;
+    text-align: center;
+    -webkti-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .post-module .thumbnail .date .day {
+    font-size: 18px;
+  }
+  .post-module .thumbnail .date .month {
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+  .post-module .thumbnail img {
+    display: block;
+    width: 120%;
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
+    transition: all 0.3s linear 0s;
+  }
+  .post-module .post-content {  
+    position: absolute;
+    width: 100%;
+    padding: 10px;
+  }
+  .post-module .post-content .category {
+    border-top-right-radius: 0px;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 70px;
+    border-bottom-left-radius: 0px;
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: #ab54c6;
+    padding: 10px 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+ 
+  .post-module .post-content .sub_title {
+    margin: 0;
+    padding: 10px 0px;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 700;
+  }
+  .post-module .post-content .description {
+    display: none;
+    color: #666666;
+    font-size: 14px;
+    line-height: 1.8em;
+  }
+
+  .Rental-card-content {
+    color: rgb(255, 255, 255);
+    font-size: 11px;
+    margin-bottom: 10px;
+  }
+
+  .Rental-Card-Button > .btn {
+    border-top-right-radius: 70px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 70px;
+    border-bottom-left-radius: 70px;
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px;
+    margin: 0px 44px;
+    color: white;
+    background-color: #fcb527;
+    transition: 0.4s ease-in-out;
+  }
+
+  .Rental-Card-Button > .btn:hover{
+    background-color:var(--color-lightgreen);
+  }
+  .Rental-Card-Button > .btn:active{
+    color: white;
+    border: none !important;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 70px;
+    border-bottom-left-radius: 0px;
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    outline: none !important;
+  }
+
+  .Rental-Card-Icons > .Star {
+    font-size: 16px;
+    color: white;
+  }
+
+  .Rental-Rating-Point {
+    width: 50px;
+    height: 26px;
+    padding: 0 0 0 5px;
+    color: white ;
+    background-color: #ab54c6;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+  .Contact-Button > .btn:hover {
+    background-color: rgb(0, 169, 96);
+  }
+  .post-module .post-content .post-meta {
+    margin: 30px 0 0;
+    color: #999999;
+  }
+  .post-module .post-content .post-meta .timestamp {
+    margin: 0 16px 0 0;
+  }
+  .post-module .post-content .post-meta a {
+    color: #999999;
+    text-decoration: none;
+  }
+  
+
+  .Rental-Card-Tabs .nav-tabs .nav-item .nav-link {
+    border-radius: 6px !important;
+    border: none;
+    color: #f3f3f3;
+    font-size: 16px;
+    /* background-image: linear-gradient(340deg, rgb(178 84 191), #dab84c) !important; */
+    background-image: linear-gradient(180deg, #ad48cc , #e0c63c) !important;
+}
+
+ 
+
+/* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (min-width: 1399.98px) { 
+  .post-module {
+    min-width: 270px;
+    height: 500px;
+}
+.Card-Img > img {
+  width: 100% !important;
+  height: 14rem;
+}
+ }
+
+/* // `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+  .Card-price {
+    margin-top: 0px !important;
+}
+.Card-Img > img {
+  width: 100% !important;
+  height: 12rem;
+}
+.Card-price h5 {
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  margin-top: 3px !important;
+}
+ }
+
+
+/* // `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+  .post-module {
+    margin: 0 0 15px 0;
+}
+.Rating-Point > p {
+  font-size: 12px !important;
+  color: white;
+ }
+ .post-module {
+  min-width: 100%;
+  height: 500px;
+}
+.Card-Img > img {
+  width: 100% !important;
+  height: 11rem;
+}
+.post-module .post-content .sub_title {
+  padding: 10px 0px;
+  font-size: 13px;
+}
+.post-module .post-content {
+  padding: 0px 20px;
+}
+.Rental-card-content {
+  font-size: 9px;
+  margin-bottom: 0px;
+  font-weight: 500;
+}
+.Card-Reviews > p {
+  font-size: 12px;
+  line-height: 15px;
+}
+.Rental-Card-Icons > .Star {
+  font-size: 15px;
+}
+.Rental-Rating-Point {
+  width: 55px;
+  height: 25px;
+  padding: 0px 0 0 7px;
+}
+.Rental-Card-Button > .btn {
+  width: 65%;
+  margin-top: 13px !important;
+  font-size: 14px;
+  padding: 5px;
+  margin: 0px 38px;
+}
+.post-module {
+  min-width: 100%;
+  height: 410px;
+}
+.Rental-Rating-Point p {
+  margin-bottom: 30px !important;
+}
+.post-module .post-content .category {
+  top: -30px;
+  left: 0;
+  padding: 6px 10px;
+  font-size: 12px;
+}
+.post-module .thumbnail .date {
+  top: 20px;
+  right: 30px;
+  width: 48px;
+  height: 48px;
+  padding: 10px 0;
+  line-height: 15px;
+}
+.Paragraph-Heading p {
+  margin-bottom: 10px !important;
+}
+.Paragraph-Heading > h6 {
+  font-size: 14px;
+  line-height: 8px;
+}
+.post-module {
+  min-width: 90%;
+  height: 410px;
+  margin: 0px 0px;
+}
+ }
+
+/* // `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {  }
+
+/* // `sm` applies to x-small devices (portrait phones, less than 576px) */
+  @media (max-width: 575.98px) {
+    .custom-car-navlink {
+      padding: 5px 18px !important;
+      margin: 4px 6px !important;
+    }
+    .post-module .post-content .sub_title {
+      font-size: 16px;
+  }
+.Card-Img > img {
+  width: 100% !important;
+  height: 12rem;
+}
+.post-module {
+  min-width: 270px;
+  height: 450px;
+}
+.post-module .post-content .sub_title {
+  font-size: 14px;
+}
+.Rental-card-content {
+  font-size: 11px;
+  margin-bottom: 10px;
+  padding: 0px 0px;
+}
+.Card-Reviews > p {
+  font-size: 12px;
+  line-height: 10px;
+}
+.Rental-Card-Icons > .Star {
+  font-size: 14px;
+  color: white;
+}
+.Rental-Rating-Point {
+  width: 45px;
+  height: 20px;
+}
+.Rental-Rating-Point p {
+  font-size: 12px;
+  margin-top: 0;
+}
+.Card-price h5 {
+  padding-top: 0px;
+  font-size: 16px;
+}
+.Card-price span {
+  font-size: 12px;
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+.Rental-Card-Button > .btn {
+  width: 60%;
+  font-size: 14px;
+  padding: 6px;
+  margin: 0px 50px;
+}
+.post-module .post-content .category {
+  top: -29px;
+  padding: 7px 12px;
+  font-size: 11px;
+  font-weight: 400;
+}
+.post-module .thumbnail .date {
+  width: 45px;
+  height: 45px;
+  padding: 9px 0;
+  line-height: 14px;
+}
+.post-module .thumbnail .date .day {
+  font-size: 13px;
+}
+.post-module .thumbnail .date .month {
+  font-size: 11px;
+  text-transform: uppercase;
+}
+  }
+
+

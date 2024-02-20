@@ -1,0 +1,207 @@
+.Custom-Hotel {
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+    /* width: 90%; */
+    margin: auto;
+    margin-top: -50px;
+}
+
+.Tours {
+    width: 70% !important;
+}
+
+.First-Input {
+    height: 60px;
+    border-radius: 6px;
+    border: none !important;
+    outline: none;
+    background-color: white;
+    padding: 5px 10px;
+}
+
+.First-label {
+    font-size: 12px;
+}
+
+/* .width {
+    width: 74% !important;
+} */
+
+.Input-Field {
+    border: none !important;
+    width: 100%;
+    font-size: 16px ;
+    background: none;
+    color: gray;
+    font-weight: 700;
+}
+.Input-Field:focus {
+    outline: none;
+}
+.backround-color {
+    background-color: white;
+}
+.Second-Input {
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 10px;
+}
+
+.Input-span {
+    font-size: 12px;
+    width: 55px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.First-Input .btn {
+    border: none !important;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Tour-Button  .btn {
+       width: 100% !important;
+}
+
+.Hotel-Button  .Search-Button:hover {
+    background-color: #02ada8;
+}
+.adult-dropdowns .dropdown-menu.Adult-Dropdown.show {
+    margin-left: -10px !important;
+}
+
+.Car-HeadingText .nav-item .nav-link {
+    color: black;
+    background: none;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 6px;
+}
+.Car-HeadingText .nav-item .nav-link:hover {
+    color: black;
+    background: white;
+    border-radius: 6px;
+}
+
+.Car-HeadingText {
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.Car-TabBox {
+    background-color: white;
+    height: 60px;
+    border-radius: 6px;
+    display: flex !important;
+    justify-content: space-between;
+}
+
+.First-label {
+    display: flex;
+    font-size: 12px;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+}
+
+.Sub-Tabs .nav-pills .nav-link {
+    color: black !important;
+}
+
+.Car-Flex{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center;
+    flex-direction: column; */
+}
+
+.Car-padding {
+    background-color: white;
+    border-radius: 6px;
+    height: 60px;
+    padding: 5px;
+}
+
+.Car-Dropdown {
+    width: 100%;
+}
+
+.Car-padding .btn {
+    border: none;
+}
+
+.adult-dropdowns .dropdown-menu.Adult-Dropdown.show {
+    margin-left: -5px !important;
+}
+
+.Car-Input-background {
+    background: none !important;
+}
+
+.TourTickets .Table-Data-Hover{
+    text-align: start !important;
+}
+
+
+/* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {  }
+
+/* // `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+    .Tours {
+        width: 95% !important;
+    }
+    .Tour-Column-CustomWidth {
+        width: 33%;
+    }
+    .Button-Column-CustomWidth {
+        width: 33%;
+    }
+    .Button-Column-CustomWidth button {
+        width: 100% !important;
+    }
+ }
+
+
+/* // `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+    .Tour-Column-CustomWidth {
+        width: 33%;
+    }
+    .Button-Column-CustomWidth {
+        width: 33%;
+    }
+    .Button-Column-CustomWidth button {
+        width: 100% !important;
+    }
+ }
+
+/* // `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {  }
+
+/* // `sm` applies to x-small devices (portrait phones, less than 576px) */
+  @media (max-width: 575.98px) { 
+
+    .Tour-Column-CustomWidth {
+        width: 100%;
+    }
+    .Tours {
+        width: 100% !important;
+    }
+    .custom-tour {
+        padding:5px 0 !important;
+    }
+    .Tour-Button button {
+        width: 100% !important;
+    }
+    .Button-Column-CustomWidth {
+        width: 70%;
+        margin-left: 40px !IMPORTANT;
+    }
+    }

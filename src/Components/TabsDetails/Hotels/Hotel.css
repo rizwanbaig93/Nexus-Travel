@@ -1,0 +1,183 @@
+.Custom-Hotel {
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 12px;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+  width: 80% !important;
+  margin: auto;
+  margin-top: -50px;
+}
+
+.First-Input {
+  height: 60px;
+  border-radius: 6px;
+  border: none !important;
+  outline: none;
+  background-color: white;
+  padding: 7px 10px !important;
+  justify-content: space-between;
+}
+
+.First-label {
+  font-size: 12px;
+}
+
+
+/* .width {
+    width: 74% !important;
+} */
+
+.Input-Field {
+  border: none !important;
+  width: 85%;
+  font-size: 16px;
+  background: none;
+  color: gray;
+  font-weight: 700;
+}
+.Input-Field:focus {
+  outline: none;
+}
+.backround-color {
+  background-color: white;
+}
+.Second-Input {
+  display: flex;
+  /* justify-content: space-between; */
+  padding: 10px;
+}
+
+.Input-span {
+  font-size: 12px;
+  width: 55px;
+  font-weight: 400;
+}
+
+.First-Input .btn {
+  border: none !important;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Hotel-Button .Search-Button {
+  align-items: center;
+  width: 100% !important;
+  padding: 17px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center !important;
+  background-color: #fcb527;
+  color: rgb(255, 255, 255);
+  border: none;
+}
+
+.Hotel-Button .Search-Button:hover {
+  background-color: var(--lightgreen);
+}
+.adult-dropdowns .dropdown-menu.Adult-Dropdown.show {
+  margin-left: -10px !important;
+}
+
+/* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1440px) { 
+  .Column-Custom-Width {
+    width: 50% !important;
+    margin-top: 10px;
+  }
+  .Input-Field {
+    font-size: 15px !important;
+} 
+  .First-Input .Input-Field {
+    width: 90% !important;
+}
+.Input-span {
+  padding-top: 5px !important;
+  font-size: 14px;
+}
+.First-label {
+  font-size: 14px;
+}
+ }
+
+/* // `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+  .Custom-Hotel {
+    width: 95% !important;
+}
+  .Column-Custom-Width {
+    width: 50%;
+    margin-top: 10px;
+  }
+  /* .Custom-PT {
+    padding-top: 10px;
+  } */
+  .Button-display  {
+    display: flex;
+    justify-content: center;
+  }
+  .Button-Custom-Width {
+    width: 100% ;
+    padding-top: 20px !important;
+  }
+  .Button-display   button {
+    width: 30% !important;
+  }
+  /* .Column-Custom-Width-100 {
+    width: 100%;
+    display: flex; justify-content: center;
+  }.Column-Custom-Width-100 button {
+width: 50%;
+  } */
+ }
+
+
+/* // `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+  .Column-Custom-Width {
+    width: 50%;
+    margin-top: 0px !important;
+  }
+ }
+
+/* // `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+  .Column-Custom-Width {
+    margin-top: 0px !important;
+  }
+ }
+
+/* // `sm` applies to x-small devices (portrait phones, less than 576px) */
+  @media (max-width: 575.98px) { 
+    .Custom-Hotel {
+      width: 100% !important;
+        }
+       .First-Input .hotel-input {
+          width: 81% !important;
+      }
+        .hotel--span {
+          margin-top: -5px;
+          padding-right: 10px !important;
+      }
+        .Second-Input {
+          margin-bottom: 0px !important;
+          padding-top: 0px !important;
+        }
+        .Column-Custom-Width {
+          width: 100% !important;
+          margin-top: 0px !important;
+        }
+        .Custom-PT {
+          padding-top: 0px !important;
+      }
+        .hotel--span {
+          margin-top: -16px;
+          padding-right: 10px !important;
+      }
+      .Flights-Columns {
+        margin: 6px 0 !important;
+    }
+    }
+  

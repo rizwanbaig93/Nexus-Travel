@@ -1,0 +1,75 @@
+.Container-bg {
+    background-color: rgb(122 196 193);
+    color: white;
+}
+.FlightDetails {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Flight-Details-Icon {
+    font-size: 40px !important;
+}
+.social-icon{
+    box-shadow: 0px 0px 3px 2px gainsboro;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    align-items: center;
+    background: white;
+    color: var(--color-yellow);
+}
+.Flight-Heading p{
+    overflow: hidden;
+text-overflow: ellipsis;
+display: -webkit-box;
+-webkit-line-clamp: 4;
+-webkit-box-orient: vertical;
+}
+
+
+/* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {  }
+
+/* // `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+    .Top-Airline-Heading {
+        font-size: 24px ;
+    }
+    .Flight-Heading p {
+        font-size: 15px;
+    }
+ }
+
+
+/* // `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+    .social-icon {
+        width: 52px;
+        height: 50px;
+    }
+    .Flight-Details-Icon {
+        font-size: 30px !important;
+    }
+    .Flight-Heading h2 {
+        font-size: 24px;
+    }
+    .Flight-Heading p {
+        font-size: 14px;
+    }
+     .Flight-Heading {
+        margin: 0 0 20px 0 !important;
+    }
+ }
+
+/* // `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {  }
+
+/* // `sm` applies to x-small devices (portrait phones, less than 576px) */
+  @media (max-width: 575.98px) { 
+    .Flight-Heading {
+        margin: 10px  0 !important;
+    }
+    }
+  

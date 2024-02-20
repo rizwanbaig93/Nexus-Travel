@@ -1,0 +1,158 @@
+.Cutsom-bg {
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+    margin: auto;
+    margin-top: -50px;
+}
+
+.Trains {
+    justify-content: space-between !important;
+    width: 70%; 
+}
+.Radio-Button > div {
+   margin: 0 15px;
+}
+
+.Train-InputDiv  {
+    background-color: white;
+    border-radius: 6px;
+    height: 60px;
+}
+.Train-Input {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px !important;
+    background: none !important;
+    color: black;
+    font-weight: 500;
+}
+.Train-Label {
+    font-size: 14px;
+    color: rgb(142, 142, 142);
+}
+
+input::placeholder{
+    font-size: 15px !important;
+    font-weight: 500;
+    line-height: 10px;
+    color: black;
+}
+
+.Train-InputDiv .Line-Height {
+    line-height: 10px !important;
+}
+
+.train-dropdown {
+  width: 60% !important;
+  min-height: 200px;
+  transform: translate(17px, 174px) !important;
+}
+
+.Hotel-Button  .Train-Button {
+    width: 100% !important;
+}
+
+
+/* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1440px) { 
+    .Train-col4-width {
+        width: 50% !important;
+    }
+    .Button-display  {
+        display: flex;
+        justify-content: center;
+      }
+      .Button-Custom-Width {
+        width: 100% ;
+        padding-top: 10px !important;
+      }
+      .Button-display   button {
+        width: 30% !important;
+      }
+ }
+
+/* // `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+    .Trains {
+        justify-content: space-between !important;
+        width: 95%;
+    }
+    .Train-Input {
+        width: 93%;
+        border: none;
+        outline: none;
+        font-size: 16px !important;
+        background: none !important;
+        color: black;
+        font-weight: 500;
+    }
+    .Train-Label {
+        padding-left: 0 !important;
+        font-size: 15px;
+        line-height: 1.4;
+    }
+    .Train-col4-width {
+        width: 50% !important;
+    }
+ }
+
+
+/* // `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+    .Cutom-margin-right {
+        margin-right: 30px !important;
+    }
+    .Train-col4-width {
+        width: 100% !important;
+    }
+ }
+
+/* // `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {  }
+
+/* // `sm` applies to x-small devices (portrait phones, less than 576px) */
+  @media (max-width: 575.98px) { 
+    .Trains  {
+        width: 100%;
+    }
+    .Train-InputField {
+        padding:0 10px !important;
+    }
+    .Radio-Button > div {
+        margin: 0 5px;
+    }
+    .form-check-label {
+        font-size: 8px;
+        font-weight: 700;
+    }
+    .custom-labelinput-ml {
+        padding-left: 20px !important;
+    }
+    .custom-train {
+        display: block !important;
+    }
+    .Train-Input {
+        font-size: 12px !important;
+    }
+    .Train-InputDiv {
+        line-height: 1.2 ;
+    }
+    .Train-InputDiv {
+        height: 50px;
+        padding: 0px 10px !important;
+    }
+    .custom-traininput {
+        margin: 10px 0 !important;
+    }
+    .Line-Height {
+        margin: 0 !important;
+    }
+    .custom-labelinput {
+        padding: 5px 0px !important;
+    }
+    }
+  

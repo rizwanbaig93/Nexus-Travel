@@ -1,0 +1,548 @@
+
+
+.flight-card {
+    width: 90%;
+    background-color: rgb(0 141 136 / 52%);
+    backdrop-filter: blur(8px) saturate(159%);
+    border-radius: 6px;
+    position: relative;
+    z-index: 1;
+    display: block;
+    min-width: 270px;
+    height: 510px;
+}
+
+.fligt-card-button button {
+    color: var(--color-black) !important;
+    background-color: var(--color-white) !important;
+}
+
+.fligt-card-button .btn:hover {
+    color: #ffffff !important;
+    background-color : var(--color-yellow) !important;
+}
+
+.Flight-Img img {
+    width: 100%;
+    height: 14rem;
+}
+
+.Flight-Rating-Point {
+    width: 50px;
+    height: 26px;
+    padding: 0 0 0 5px;
+    color: var(--color-yellow);
+    background-color: #ffffff;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.post-module .thumbnail {
+    background: #030303;
+    overflow: hidden;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.card-body .card-title {
+    color: black;
+    font-size: 24px;
+}
+
+.owl-carousel .owl-stage-outer {
+    position: relative;
+    overflow: hidden;
+ 
+}
+.custom-owl{
+    position: relative;
+}
+
+.Flight-Carousel .owl-nav .owl-prev{
+    position: absolute;
+    top: 200px;
+    left: -45px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px !important;
+}
+.Flight-Carousel .owl-nav .owl-next{
+    position: absolute;
+    top: 200px;
+    right: -40px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px !important;
+}
+
+.Top-Destination-Carousel .owl-nav .owl-prev {
+    color: white !IMPORTANT;
+    position: absolute;
+    top: 200px;
+    left: -35px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px !important;
+}
+
+.Top-Destination-Carousel .owl-nav .owl-next {
+    color: white !IMPORTANT;
+    position: absolute;
+    top: 200px;
+    right: 25px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px !important;
+}
+.Top-Destination-Carousel .owl-nav .owl-prev:hover  {
+    color: var(--color-lightgreen) !important;
+}
+.Top-Destination-Carousel .owl-nav .owl-next:hover  {
+    color: var(--color-lightgreen) !important;
+}
+
+.Best-Hotel-Carousel .owl-nav .owl-prev {
+    color: white !important;
+    position: absolute;
+    top: 435px;
+    left: 605px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 160px !important;
+}
+.Best-Hotel-Carousel .owl-nav .owl-next {
+    color: white !important;
+    position: absolute;
+    top: 435px;
+    right: 605px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 160px !important;
+}
+.Best-Hotel-Carousel .owl-nav .owl-prev:hover  {
+    color: var(--color-lightgreen) !important;
+}
+.Best-Hotel-Carousel .owl-nav .owl-next:hover  {
+    color: var(--color-lightgreen) !important;
+}
+.Umrah-Carousel .owl-nav .owl-next {
+    position: absolute;
+    top: -60px;
+    right: 110px; 
+    color: var(--color-yellow) !important;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px !important;
+}
+.Umrah-Carousel .owl-nav .owl-prev {
+    position: absolute;
+    color: var(--color-yellow)!important;
+    top: -60px;
+    left: 1100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px !important;
+}
+.Umrah-Carousel .owl-nav .owl-prev:hover  {
+    color: var(--color-white) !important;
+}
+.Umrah-Carousel .owl-nav .owl-next:hover  {
+    color: var(--color-white) !important;
+}
+
+.custom-owl button:hover{
+    background: none !important;
+    color: black !important;
+}
+
+.Carousel-Button {
+    background-color: rgb(160 95 181);
+    color: white;
+}
+.Carousel-Button:hover {
+    background-color: #fcb527;
+    color: white;
+}
+
+.owl-theme .owl-dots {
+    margin-top: 30px;
+}
+
+/* .card-img-top {
+    transformation
+} */
+
+
+/* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1440px) { 
+    .Top-Destination-Carousel .owl-nav .owl-next {
+        top: 200px;
+        right: -35px;
+    }
+    .Umrah-Carousel .owl-nav .owl-next {
+        right: 20px;
+    }
+    .Umrah-Carousel .owl-nav .owl-prev {
+        left: 1190px;
+    }
+ }
+
+/* // `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+    /* .Flight-Carousel .owl-nav .owl-next {
+        position: absolute;
+        top: 200px;
+        right: -14px;
+        font-size: 55px !important;
+    }
+    .Flight-Carousel .owl-nav .owl-prev {
+        position: absolute;
+        top: 200px;
+        left: -45px;
+        font-size: 55px !important;
+    } */
+    .Flight-Page-Carousel .owl-nav .owl-next {
+        position: absolute;
+        top: 200px;
+        right: -13px;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 60px !important;
+    }
+    .post-module {
+        min-width: 270px;
+        height: 460px;
+    }
+    .Top-Destination-Carousel .owl-nav .owl-next {
+        top: 200px;
+        right: -35px;
+        font-size: 60px !important;
+    }
+    .Best-Hotel-Carousel .owl-nav .owl-next {
+        top: 450px;
+        right: 450px;
+    }
+    .Best-Hotel-Carousel .owl-nav .owl-prev {
+        top: 450px;
+        left: 405px;
+    }
+    .Umrah-Carousel .owl-nav .owl-next {
+        top: -62px;
+        right: 50px;
+    }
+    .Umrah-Carousel .owl-nav .owl-prev {
+        top: -62px;
+        left: 805px;
+    }    
+    .Flight-Carousel {
+        margin-left: 15px;
+    }
+    .Rental-Card-Button > .btn {
+        width: 67%;
+        font-size: 15px;
+        padding: 7px;
+        margin: 0px 44px;
+    }
+    .post-module .post-content .sub_title {
+        padding: 6px 0px;
+        font-size: 14px;
+    }
+    .Flight-Rating-Point {
+        margin-top: -40px;
+        width: 50px;
+        height: 26px;
+    }
+    .Rental-card-content {
+        font-size: 12px;
+    }
+    .Card-Reviews > p {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .custom-destination-h6 {
+        font-size: 13px;
+    }
+    .post-module {
+        min-width: 270px;
+        height: 480px;
+    }
+ }
+
+
+/* // `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+
+    .Flight-Carousel .owl-nav .owl-next {
+        font-size: 45px !important;
+        top: 200px;
+        right: -13px !important;
+        width: 40px;
+        height: 40px;
+    }
+    .Flight-Carousel .owl-nav .owl-prev {
+        position: absolute;
+        top: 200px;
+        left: -45px;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 45px !important;
+    }
+    .Carousel-Heading {
+        padding: 0 50px !important;
+        margin-bottom: 2rem;   
+         margin-left: 17px;
+    }
+    .Client-Review-Carousel {
+        margin-top: 0 !Important;
+    }
+    .Flight-Img img {
+        width: 100%;
+        height: 13rem;
+    }
+    .Top-Destination-Carousel .owl-nav .owl-prev {
+        top: 170px;
+        left: -30px !important;
+        width: 40px;
+        height: 40px;
+        font-size: 45px !important;
+        color: var(--color-white) !important;
+    } 
+    .Top-Destination-Carousel .owl-nav .owl-next {
+        top: 170px;
+        color: var(--color-white) !important;
+        right: -30px !important;
+        width: 40px;
+        height: 40px;
+        font-size: 45px !important;
+    }
+    .Best-Hotel-Carousel .owl-nav .owl-next {
+        top: 410px !important;
+        right: 310px !important;
+        font-size: 135px !important;
+        color: white !important;
+    }
+    .Best-Hotel-Carousel .owl-nav .owl-prev {
+        top: 410px !important;
+        left: 310px !important;
+        font-size: 135px !important;
+        color: white !important;
+    }
+    .Umrah-Carousel .owl-nav .owl-prev {
+        top: -50px !important;
+        left: 35rem !important;
+        font-size: 45px !important;
+        color: var(--color-white) !important;
+    }
+    .Umrah-Carousel .owl-nav .owl-next {
+        font-size: 47px !important;
+        top: -50px !important;
+        right: 52px !important;
+        color: var(--color-white) !important;
+    }
+    .Flight-Carousel {
+        margin-left: 0px;
+    }
+
+ }
+
+/* // `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {  }
+
+/* // `sm` applies to x-small devices (portrait phones, less than 576px) */
+  @media (max-width: 575.98px) { 
+    .Flight-Carousel .owl-nav .owl-prev {
+        top: 465px;
+        left: 100px;
+        font-size: 40px ;
+        margin: 0 0px !important;
+    }
+    .Flight-Carousel .owl-nav .owl-next {
+        font-size: 45px !important;
+        top: 465px;
+        right: 100px !important;
+        width: 40px;
+        height: 40px;
+    }
+    .flight-card {
+        min-width: 90% !important;
+        height: 485px;
+    }
+    .Rental-Card-Button > .btn {
+        margin-top: 5px !important;
+        width: 67%;
+        font-size: 15px;
+        padding: 7px;
+        margin: 0px 44px;
+    }
+    .Flight-Carousel {
+        margin-left: 0px;
+    }
+    .flight-card {
+        min-width: 270px;
+        height: 485px;
+    }
+    .Umrah-Carousel .owl-nav .owl-prev {
+        top: 465px !important;
+        left: 100px !important;
+        font-size: 45px !important;
+        color: var(--color-yellow) !important;
+    }
+    .Umrah-Carousel .owl-nav .owl-next {
+        font-size: 45px !important;
+        top: 465px !important;
+        right: 100px !important;
+        color: var(--color-yellow) !important;
+    }
+    .Top-Destination-Carousel .owl-nav .owl-next {
+        top: 475px !important;
+        right: 100px !important;
+        font-size: 45px !important;
+    }
+    .Top-Destination-Carousel .owl-nav .owl-prev {
+        top: 475px !important;
+        left: 100px !important;
+        font-size: 45px !important;
+    }
+    .Rental-card-content {
+        font-size: 11px;
+    }
+    .post-module {
+    /* min-width: 274px; */
+    height: 460px;
+}
+.custom-destination-h6 {
+    font-size: 10px;
+}
+    /* .card-width {
+        width: 80% !important;
+        margin-left: 40px;
+    } */
+    .Best-Hotel-Carousel .owl-nav .owl-prev {
+        top: 430px !important;
+        left: 125px !important;
+        font-size: 150px !important;
+        margin: 0 10px !important;
+    }
+    .Best-Hotel-Carousel .owl-nav .owl-next {
+        top: 430px !important;
+        right: 100px !important;
+        color: white !important;
+        font-size: 150px !important;
+    }
+    .Best-Hotel-Carousel .owl-nav .owl-prev {
+        position: absolute;
+        top: 513px;
+        right: 125px;
+        margin: 0 -20px !important;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .post-module  {
+        width: auto;
+    }
+    .Flight-Carousel .owl-nav {
+        display: flex;
+        justify-content:center;
+    }
+    /* .Best-Hotel-Carousel .owl-nav .owl-prev {
+        font-size: 100px !important;
+        color: var(--color-yellow) !important;
+        margin: 0 7px;
+    }
+    .Flight-Carousel .owl-nav .owl-next {
+        font-size: 100px !important;
+        color: var(--color-yellow) !important;
+    } */
+    .Carousel-Heading h1 {
+        font-size: 17px !important;
+        margin-bottom: 1rem;
+        font-weight: 700;
+        padding-top: 2rem !important;
+    }
+    .Carousel-Heading {
+        padding: 0 0px !important;
+        margin-bottom: 2rem;
+    }
+   
+   
+    /* .Flight-Carousel .owl-nav .owl-next {
+        font-size: 40px !important;
+        top: 485px;
+        right: 100px !important;
+        width: 40px;
+        height: 40px;
+    } */
+    /* .Flight-Carousel .owl-nav .owl-next {
+        position: absolute;
+        top: 513px;
+        right: 125px;
+        margin: 0 -20px !important;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px ;
+    } */
+    
+    }
+
+  /* @media (max-width: 320px) { 
+   
+    .Flight-Carousel .owl-nav .owl-prev {
+        top: 513px;
+        left: 107px;
+        font-size: 40px !important;
+    }
+    .Flight-Carousel .owl-nav .owl-next {
+        position: absolute;
+        top: 513px;
+        right: 107px;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px !important;
+    }
+    }
+   */

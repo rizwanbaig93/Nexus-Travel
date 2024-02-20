@@ -1,0 +1,9 @@
+  @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,800&display=swap');
+
+ :root {
+  --color-yellow: #fcb527;
+  --color-white: #ffffff;
+  --color-lightgreen:  #02ada8; 
+  --color-black:  #000000;
+  --color-linear-gradient:  180deg, #3a036a8d, transparent;
+ }

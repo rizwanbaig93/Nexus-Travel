@@ -1,0 +1,486 @@
+.train-bg {
+  background-image: linear-gradient(180deg,  #0f6160d4, transparent), url(../TrainPage/TrainImages/trainbg3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.Train-Tabs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.TrainPage {
+  background-color: #ebebeb;
+  min-height: 45vh;
+}
+
+.Train-Tabs .Train-nav-item {
+  color: rgb(255, 255, 255) !important;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0 10px;
+}
+.custom-bg {
+  background-color: #004443;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 10px;
+}
+
+.Train-Tabs-Content {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  box-shadow: 0 4px 16px 0 rgb(155 183 197 / 71%);
+  /* border-radius: 5px; */
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.Train-tabs-HP h2 {
+  color: var(--color-lightgreen);
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.Train-tabs-HP p {
+  color: rgb(0, 0, 0);
+  font-size: 1rem;
+}
+
+.Train-tabs-Anchor .register {
+  background-color: var(--color-lightgreen);
+  color: rgb(255, 255, 255);
+  margin: 0 10px 0 0;
+  border-radius: 6px;
+  padding: 10px 25px;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 400;
+  transition: 0.4s ease-in-out;
+}
+.Train-tabs-Anchor .register:hover {
+  background-color: var(--color-yellow);
+  color: rgb(0, 0, 0);
+}
+
+.Train-tabs-Anchor .SignIn {
+  color: rgb(0, 0, 0);
+  border-radius: 6px;
+  /* border: 1px solid var(--color-lightgreen); */
+  padding: 10px 40px;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 400;
+  transition: 0.4s ease-in-out;
+  background-color: var(--color-yellow);
+}
+.Train-tabs-Anchor .SignIn:hover {
+  background-color: var(--color-lightgreen);
+  color: rgb(255, 255, 255);
+}
+
+.Tabs-Image img {
+  width: 12rem;
+}
+
+.Tabs-Paragraph {
+  padding: 0 30px;
+}
+.Tabs-Paragraph span {
+  color: var(--color-lightgreen);
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.Train-Tabs-Icon {
+  color: var(--color-yellow);
+  font-size: 30px !important;
+  margin: 0px 5px;
+}
+
+.Train-Offer-Section {
+  /* min-height: 100vh; */
+  background-color: var(--color-lightgreen);
+}
+
+.Train-Main-Content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Train-Offer-Content h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+}
+
+.offer-span {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--color-lightgreen);
+  text-align: center;
+}
+
+.Train-Offer-Content p {
+  color: #e7e7e7;
+  text-align: center;
+}
+
+.Offer-Icon .Icons {
+  font-size: 4rem;
+  color: var(--color-yellow);
+}
+
+.Great-Offer-Bg {
+  background-color: #ebebeb;
+}
+
+.Great-Offer-Bg h1 {
+  color: black;
+}
+
+.Great-Offer-Option {
+  background-color: #ffffff;
+  height: 400px;
+}
+.Great-Offer-Option:hover {
+  background: rgb(255, 255, 255);
+}
+
+.Train-Great-option {
+  min-height: 100vh;
+}
+
+.Font-size {
+  font-size: 26px !important;
+  color: rgb(0, 0, 0);
+}
+
+.Option-card-image {
+  width: 5rem !important;
+  transform: rotateY(0deg);
+  transition: all 0.6s linear;
+}
+
+.Offer-Icon {
+  transform: rotateY(0deg);
+  transition: all 0.7s linear;
+}
+
+.Train-Offer-Content:hover .Offer-Icon {
+  transform: rotateX(360deg);
+}
+
+.Great-Offer-Option:hover img {
+  transform: rotateY(360deg);
+}
+
+.Option-Offer-Content h2 {
+  text-align: initial;
+}
+
+.text-black {
+  color: black;
+}
+
+.Option-Offer-Content p {
+  color: #fcb527;
+  font-weight: 600;
+}
+
+.image-fix-width {
+  width: 4rem !important;
+}
+
+/* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {  }
+
+/* // `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+  .Train-Offer-Content h2 {
+    font-size: 24px;
+}
+.Train-Offer-Content p {
+  font-size: 14px;
+  margin: 0;
+  line-height: 1.4;
+}
+.Train-tabs-HP p {
+  font-size: 14px;
+}
+.Train-tabs-Anchor .register {
+  margin: 0 10px 0 0;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+.Train-tabs-Anchor .SignIn {
+  padding: 10px 40px;
+  font-size: 16px;
+}
+.offer-span {
+  font-size: 30px;
+}
+.Option-Offer-Content h2 {
+  padding: 10px !important;
+  font-size: 18px;
+  text-align: initial;
+}
+.Option-Offer-pb {
+  padding-bottom: 0 !important;
+}
+.image-fix-width {
+  width: 3.5rem !important;
+}
+ }
+
+
+/* // `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+  .Train-tabs-Anchor  {
+    padding-top: 2rem !important;
+    margin-right: 1rem;
+  }
+  .Train-tabs-HP h2 {
+    font-size: 24px;
+  }
+  .Train-tabs-HP h2 {
+    font-size: 16px;
+   }
+  .Train-tabs-HP p {
+    font-size: 12px;
+   }
+   .Tabs-Image img {
+    margin-left: 5rem;
+    width: 13rem !important;
+   }
+   .offer-span {
+    font-size: 26px;
+}
+   .Train-Tabs-Content {
+    height: 250px;
+   }
+   .Train-tabs-Anchor .register {
+    padding: 8px 12px;
+    font-size: 14px;
+   }
+   .Train-tabs-Anchor .SignIn {
+    padding: 8.5px 33px;
+    font-size: 14px;
+   }
+   .Tabs-Paragraph {
+    padding-top: 0.7rem;
+    font-size: 14px !important;
+   }
+   .Tabs-Paragraph span {
+    font-size: 16px;
+   }
+   .Train-nav-item button {
+    padding: 6px 10px !important;
+   }
+   .Train-Tabs-Icon {
+    font-size: 24px !important;
+   }
+   .Train-Main-Content {
+    padding: 0 !important;
+   }
+   .Offer-Icon .Icons {
+    font-size: 2.6rem;
+  }
+  .Train-Offer-Content h2 {
+    font-size: 22px;
+  }
+  .Train-Offer-Content p {
+    font-size: 14px;
+  }
+  .Option-card-image {
+    width: 4rem !important;
+  }
+  .Option-Offer-Content h2 {
+    font-size: 22px;
+    padding: 0 !important;
+    text-align: initial;
+  }
+  .Service-Image-Width {
+    width: 2.8rem !important;
+  }
+  .Great-Offer-Option {
+    background-color: #ffffff;
+    height: 340px;
+    padding: 0 15px;
+  }
+  .Option-Offer-mb {
+    margin-bottom: 0 !important;
+  } 
+  .Option-Offer-pb {
+    padding-bottom: 0 !important;
+  }
+  .Font-size {
+    margin-top: -10px !important;
+    font-size: 20px !important;
+  }
+  .Services-Owl button.owl-prev {
+    font-size: 40px !important;
+    margin: 0 5px 0px 0px !important;
+  }
+  .Services-Owl button.owl-next {
+    font-size: 40px !important;
+    margin: 0 0px 0px 5px !important;
+  }
+ }
+
+/* // `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {  }
+
+/* // `sm` applies to x-small devices (portrait phones, less than 576px) */
+  @media (max-width: 575.98px) {
+    .Train-Offer-Content h2 {
+      font-size: 1rem !important; 
+  }
+    .Offer-Icon .Icons {
+      font-size: 2rem !important;
+  }
+  .Option-Offer-Content {
+    padding: 35px 10px !important;
+  }
+  .Train-Offer-Content p {
+    font-size: 0.8rem !important;
+ }
+  .offer-span {
+  font-size: 1.3rem;
+  }
+  .Option-Offer-Content p {
+  font-size: 0.8rem;
+  padding: 12px 0px !important;
+  }
+  .Option-Offer-Content h2 {
+    font-size: 1.3rem;
+    padding: 0 !important;
+ }
+  .Option-card-image {
+  width: 2.5rem !important;
+  padding-left: 0 !important;
+  }
+  .Great-Offer-Option {
+    height: 350px;
+}
+  .margin-bottom {
+    margin-bottom: 0;
+  }
+  .Font-size {
+    font-size: 18px !important;
+    margin-top: -12px;
+  }
+  .Items-Owl button.owl-prev {
+  font-size: 25px ;
+  } 
+  .Items-Owl .owl-nav button:hover {
+    color: var(--color-yellow) !important;
+}
+  .Items-Owl button.owl-next {
+  font-size: 25px ;
+  }
+  .Items-Owl .owl-nav {
+    /* margin-top: -15px; */
+    padding-bottom: 2rem;
+  }
+   .Services-Owl .owl-stage-outer{
+  margin-top: -1rem !important;
+  }
+  .Train-tabs-HP h2 {
+    font-size: 0.8rem;
+  }
+  .Train-tabs-HP p {
+    font-size: 11px;
+    margin-bottom: 0;
+}
+.Train-tabs-Anchor .register {
+  padding: 0px 10px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 32px;
+}
+.Train-tabs-Anchor {
+  padding:0 13px;
+}
+.Train-tabs-Anchor .SignIn {
+  font-size: 0.7rem;
+  padding: 0px 28px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 33px;
+}
+.Tabs-Image img {
+  width: 7rem !important;
+  margin: 0px 92px !important;
+}
+.Train-tabs-Anchor {
+  padding-top: 0rem !important;
+  margin-right: 0rem;
+}
+.Tabs-Paragraph {
+  padding: 0 10px;
+  max-height: 200px !important;
+  overflow: auto;
+}
+.Tabs-Paragraph p{
+  font-size: 12px !important;
+}
+.Train-tabs-button {
+  display: flex;
+  justify-content: center;
+  padding-top: 7px !important;
+}
+.Train-Tabs-Icon {
+  font-size: 14px !important;
+  margin: 0px 5px;
+}
+.custom-bg {
+  padding: 6px;
+}
+.train-row-margin {
+  margin: 0 ;
+}
+.Nav-Train-Tabs .nav-link {
+  padding: 5px 3px !important;
+  margin: 0px 4px !important;
+  font-size: 11px !important;
+}
+.Train-Tabs .Train-nav-item {
+  margin: 0px 0px;
+}
+.Tabs-Middle-Content {
+  padding: 0px 25px !important;
+}
+.Tabs-Middle-Content h2 {
+  padding-top: 20px !important;
+}
+.TrainPage {
+  padding-top: 2.5rem !important;
+  min-height: 44vh;
+}
+.Train-Offer-Section {
+  padding: 0 !important;
+}
+.Tabs-Paragraph span {
+  font-size: 0.8rem !important;
+}
+.train-bg {
+  min-height: 80vh;
+}
+.Option-Offer-Content .Service-Image-Width {
+  width:1.6rem !important;
+}
+  }
+
+

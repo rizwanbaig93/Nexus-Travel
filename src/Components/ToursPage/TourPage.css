@@ -1,0 +1,414 @@
+.tour-bg {
+    background-image: linear-gradient(180deg,  #0f6160d4, transparent),url(../ToursPage/TourImages/BgImage1.jpg);
+    background-position:center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.Welcome-Tour-img img {
+    width: 100%;
+}
+
+.Holiday-Section {
+    /* min-height: 100vh; */
+    background-color: var(--color-yellow);
+}
+.Welcome-Span-Text {
+    color: var(--color-yellow);
+}
+
+.gallery-Span-Text {
+    color: var(--color-yellow);
+    font-weight: 700 !important;
+    font-size: 32px !important;
+}
+
+.Images-Gallery h1 {
+    font-weight: 700 !important;
+    font-size: 32px !important;
+}
+
+.yellow-color {
+    color: var(--color-lightgreen);
+    font-weight: 700 !important;
+    font-size: 32px !important;
+}
+
+.Tour-Welcome-Section h1{
+    font-weight: 700;
+}
+
+.Holiday-Section h1 {
+    font-weight: 700 !important;
+    font-size: 32px !important;
+}
+
+.Holiday-Span-Text {
+    color: #ffffff;
+}
+
+.Holiday-ul li {
+    color: #5c5e61;
+}
+
+.border-right {
+    /* border-right: 2px solid black; */
+    border-right: 2px solid var(--color-yellow);
+    height: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3px;
+}
+
+.Holiday-Image img {
+    height: 16rem;
+    width: 100% !important;
+}
+
+.Holiday-Card-Section {
+    background-color: #e9ecef;
+}
+
+.Holiday-Content {
+    padding: 15px 20px;
+}
+
+.Holiday-card-span {
+    font-size: 13px;
+}
+
+.Holdiday-card-Icon {
+    font-size: 20px !important;
+}
+
+.Holiday-Card-Button .btn {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 6px;
+    padding: 5px 10px;
+    color: var(--color-black);
+    background-color: var(--color-yellow);
+}
+
+.Holiday-Card-Button .btn:hover {
+    color: var(--color-white) !important;
+    background-color: var(--color-lightgreen)!important;
+}
+
+.icon-margin-left {
+    margin: 0 5px 0 0;
+}
+
+.tour-owl .owl-prev{
+    position: absolute;
+    top: 70px ;
+    left: -80px !important;
+    color: var(--color-lightgreen);
+
+}
+
+.tour-owl .owl-nav{
+    position: absolute;
+    top: -140px;
+    right: 0;
+    color: var(--color-lightgreen);
+}
+
+.Tourpage-Owl .owl-nav {
+    display: none !important;
+}
+
+.Tourpage-Owl .owl-dots .owl-dot span {
+    width: 16px;
+    height: 16px;
+    margin: 5px 7px;
+    background: #D6D6D6;
+    display: block;
+    -webkit-backface-visibility: visible;
+    transition: opacity 200ms ease;
+    border-radius: 30px;
+}
+
+hr {
+    color: var(--color-yellow) !important;
+    border: 0;
+    border-top: 1px solid;
+    opacity: 0.6;
+}
+
+
+.image-gallery-single {
+    margin-bottom: 15px;
+}
+
+
+.image-gallery-single img {
+    width: 100%;
+}
+
+.elementor img {
+    height: auto;
+    max-width: 100%;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+.image-gallery-single .image-view{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0.7);
+    opacity: 0;
+    transition: all 0.45s ease-in-out;
+}
+
+.image-gallery-single:hover .image-view{
+    opacity: 1;
+    transform: scale(1);
+}
+
+.hover-icon{
+    opacity: 0;
+    position: absolute;
+    top: 42%;
+    transform: scale(0.7);
+    transition: all 0.45s ease-in-out;
+    right: 42%;
+    font-size: 60px !important;
+    color: yellow;
+    cursor: pointer;
+
+}
+.image-gallery-single:hover .hover-icon{
+    opacity: 1;
+    transition: all 0.45s ease-in-out;
+    z-index: 9999999;
+}
+
+.Images-Gallery {
+    background-color: #ebebeb;
+}
+
+
+.gallery-modal {
+    width: 100%;
+    height: 60% !important;
+}
+
+.green-color {
+    color: var(--color-lightgreen) !important;
+}
+
+/* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {  }
+
+/* // `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+    .Tour-Welcome-Section h1 {
+        font-size: 30px;
+        margin-top: 0 !important;
+        padding-top: 0 !important;
+    }
+    .Welcome-Tour-img {
+        padding-top: 0 !important;
+    }
+    .Holiday-Section h1 {
+        font-size: 30px !important;
+    }
+    .Holiday-Content h2 {
+        font-size: 24px !important;
+    }
+    .gallery-Span-Text {
+        font-size: 30px !important;
+    }
+    .Images-Gallery h1 {
+        font-size: 30px !important;
+    }
+ }
+
+
+/* // `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+    .Welcome-Tour-img img {
+        width: 100%;
+        height: 28rem !important;
+    }
+    .Welcome-Tour-img {
+        padding-top: 0 !important;
+    }
+    .Tour-Welcome-Section {
+        padding: 0 !important;
+    }
+    .Tour-Welcome-Section h1 {
+        padding-top: 5px !important;
+        margin-top: 0 !important;
+        font-size: 24px;
+    }
+    .Welcome-Span-Text {
+        font-size: 24px;
+    }
+    .green-color {
+        font-size: 24px !important;
+    }
+    .Welcome-Section p {
+        font-size: 14px;
+    }
+    .Holiday-ul li {
+        font-size: 14px;
+    }
+    .Holiday-Section h1 {
+        font-size: 24px !important;
+    }
+    .Holiday-Image img {
+        height: 11rem;
+        width: 100% !important;
+    }
+    .Holiday-Content .sub-title  {
+        font-size: 16px;
+    }
+    .Holiday-Content h2 {
+        font-size: 18px !important;
+    }
+    .Holiday-card-span {
+        font-size: 11px;
+    }
+    .Holdiday-card-Icon {
+        font-size: 16px !important;
+    }
+    .border-right {
+        height: 15px;
+        margin-top: 1px;
+    }
+    .Rental-Card-Button h4 {
+        font-size: 16px;
+        padding-top: 5px;
+    }
+    .Holiday-Card-Button .btn {
+        font-size: 13px;
+        border-radius: 6px;
+        padding: 5px 7px;
+    }
+    .Rental-Card-Button {
+        margin-top: 0 !important;
+    }
+    .tour-owl .owl-prev {
+        font-size: 40px !important;
+        top: 85px !important;
+        left: -80px !important;
+    } 
+    .tour-owl .owl-next {
+        top: 100px !important;
+        font-size: 40px !important;
+        top: 85px !important;
+        right: 18px !important;
+        position: absolute;
+    }
+    .Images-Gallery {
+        padding-top: 1rem !important;
+    }
+ }
+
+/* // `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {  }
+
+/* // `sm` applies to x-small devices (portrait phones, less than 576px) */
+  @media (max-width: 575.98px) {
+    .Welcome-Tour-img img {
+        width: 100%;
+        height: auto !important;
+    }
+    .Tourpage-Owl .owl-dots .owl-dot span {
+        display: none !important;
+    }
+    .Tour-Welcome-Section h1 {
+        margin-top: 0 !important;
+        padding-top: 16px !important;
+        font-weight: 700;
+        font-size: 16px !important;
+    }
+    .Tour-Welcome-Section {
+        padding: 0 !important;
+    }
+    .Tour-Welcome-Spantext {
+        display: block !important;
+    }
+    .Tour-Welcome-Section .Tour-Welcome-Spantext {
+        font-family: var(--font-family--Montserrat);
+        font-size: 18px !important;
+        padding: 0px 2px !important;
+        display: inline !important;
+    }
+    .Tour-Welcome-Section .Welcome-Span-Text {
+        display: inline !important;
+        padding: 0px 3px !important;
+    }
+    .Holiday-ul {
+        margin: 0 !important;
+        font-size: 12px;
+    }
+    .Tourpage-Owl .owl-nav {
+        display: none !important;
+    }
+    .Holiday-Section h1 {
+        font-size: 18px !important;
+    }
+    .Holiday-Image img {
+        height: 12rem;
+    }
+    .Holiday-Content .sub-title {
+        font-size: 16px !important;
+    } 
+    .Holiday-card-span {
+        font-size: 10px !important;
+    }
+    .Rental-Card-Button h4 {
+        font-size: 16px !important;
+        margin-top: 4px;
+    }
+    .Holiday-Card-Button .btn {
+        width: 100%;
+        font-size: 12px !important;
+        padding: 5px 6px !important;
+    }
+    .Rental-Card-Button {
+        margin-top: 0 !important;
+    }
+    .mobile-image {
+        display: none !important;
+    }
+    .Gallery-Modal {
+        margin-top: 12rem !important;
+        min-height: 50vh;
+        width: 100% !important;
+    } 
+    .d-sm-none {
+        display: none !important;
+    }
+    .Gallery-Image-Height {
+        height: 20rem !important;
+    }
+    .Gallery-Anchor-tag {
+        text-align: center !important;
+        text-decoration: none;
+        color: var(--color-yellow);
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .hover-icon {
+        display: none !important;
+    }
+    .tour-bg {
+        min-height: 80vh;
+      }
+  }
+
+

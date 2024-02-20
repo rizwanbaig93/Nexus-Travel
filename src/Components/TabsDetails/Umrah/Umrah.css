@@ -1,0 +1,68 @@
+.BundleSave > input{
+    width: 100%;
+}
+.BundleSave .Train-InputDiv {
+
+    height: 60px;
+}
+.BundleSave .Search-Button {
+    margin-left: 0;
+    width: 100%;
+}
+
+.BundleSave .First-Input {
+    padding: 5px 20px;
+}
+
+
+/* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1440px) { 
+    .padding-left {
+        padding-left: 12px !important;
+    }
+ }
+
+/* // `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+    .padding-left {
+    padding-left: 12px !important;
+} 
+}
+
+
+/* // `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+    .padding-left {
+        padding-left: 13px !important;
+    }
+    .Cutom-right-margin {
+        margin-right: 60px !important;
+    }
+    .custom-labelinput-ml {
+        margin-right: 13px;
+    }
+    
+ }
+
+/* // `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {  }
+
+/* // `sm` applies to x-small devices (portrait phones, less than 576px) */
+  @media (max-width: 575.98px) { 
+    .BundleSave .Train-InputDiv {
+        height: 50px;
+    }
+    .BundleSave {
+        padding: 0 12px !important;
+    }
+    .box-size {
+        width: 100% !important; 
+        padding: 5px;
+    }
+    .First-label {
+        /* margin-top: 20px; */
+    }
+    .Train-InputDiv-Form {
+        padding-left: 0 !Important;
+    }
+    }

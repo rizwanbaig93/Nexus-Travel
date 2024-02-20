@@ -1,0 +1,25 @@
+.Counter-Button {
+    font-size: 14px;
+    font-weight: 600;
+    width: 25px;
+    border-radius: 15px;
+    border: 2px solid rgb(5, 100, 184);
+}
+.Counter-Button:hover {
+    background-color: rgb(5, 100, 184);
+    color: white;
+}
+.Counter-Heading > h1{
+    font-size: 18px;
+    padding: 0 10px;
+}
+
+.Counter {
+    background-color: #e1e1e1;
+    display: flex;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center;
+    border-radius: 50%;
+    height: 25px;
+}
